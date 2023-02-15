@@ -21,11 +21,11 @@ class modele_etablissement{
 }
 
 class modele_coordonnees{
-    public $adresseEtablissement;
-    public $villeEtablissement;
-    public $telephoneEtablissement;
-    public $courrielEtablissement;
-    public $siteWebEtablissement;
+    public $adresse;
+    public $ville;
+    public $telephone;
+    public $courriel;
+    public $siteWeb;
 
    
 
@@ -34,11 +34,11 @@ class modele_coordonnees{
      */
     
     public function __construct($adresseEtablissement, $villeEtablissement, $telephoneEtablissement, $courrielEtablissement, $siteWebEtablissement  ) {
-        $this->adresseEtablissement = $adresseEtablissement;
-        $this->villeEtablissement = $villeEtablissement;
-        $this->telephoneEtablissement = $telephoneEtablissement;
-        $this->courrielEtablissement = $courrielEtablissement;
-        $this->siteWebEtablissement = $siteWebEtablissement;
+        $this->adresse = $adresseEtablissement;
+        $this->ville = $villeEtablissement;
+        $this->telephone = $telephoneEtablissement;
+        $this->courriel = $courrielEtablissement;
+        $this->siteWeb = $siteWebEtablissement;
         
         
     }
