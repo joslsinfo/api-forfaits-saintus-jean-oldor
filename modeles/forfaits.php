@@ -75,10 +75,10 @@ class modele_forfait
         $this->etablissement = $nomEtablissement;
         $this->dateDebut = $dateDebut;
         $this->dateFin = $dateFin;
-        $this->prix = $prix;
-        $this->nouveauPrix =$nouveauPrix;
-        $this->rabais =$rabais;
-        $this->premium =$premium;
+        $this->prix = floatval($prix);
+        $this->nouveauPrix =floatval($nouveauPrix);
+        $this->rabais =floatval($rabais);
+        $this->premium =boolval($premium);
         $this->imageUrl =$imageUrl;
 
 
